@@ -1,0 +1,35 @@
+# AccountGeneralSettings
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**account_default_key_item_id** | Option<**i64**> | AccountDefaultKeyItemID is the item ID of the DFC key item configured as the default protection key | [optional]
+**account_default_key_name** | Option<**String**> | AccountDefaultKeyName is the name of the DFC key item configured as the default key This is here simply for the response to include the item name in addition to the display ID so the client can properly show this to the user. It will not be saved to the DB, only the AccountDefaultKeyItemID will. | [optional]
+**ai_insights** | Option<[**models::AiInsightsSetting**](AiInsightsSetting.md)> |  | [optional]
+**allow_auto_fill** | Option<**bool**> |  | [optional]
+**allowed_client_types** | Option<[**models::AllowedClientType**](AllowedClientType.md)> |  | [optional]
+**allowed_clients_ips** | Option<[**models::AllowedIpSettings**](AllowedIpSettings.md)> |  | [optional]
+**allowed_gateways_ips** | Option<[**models::AllowedIpSettings**](AllowedIpSettings.md)> |  | [optional]
+**auth_usage_event** | Option<[**models::UsageEventSetting**](UsageEventSetting.md)> |  | [optional]
+**certificate_expiration_events** | Option<[**models::CertificateExpirationEventsSettings**](CertificateExpirationEventsSettings.md)> |  | [optional]
+**data_protection_section** | Option<[**models::DataProtectionSection**](DataProtectionSection.md)> |  | [optional]
+**default_auth_method** | Option<[**models::DefaultAuthMethodSettings**](DefaultAuthMethodSettings.md)> |  | [optional]
+**default_home_page** | Option<[**models::DefaultHomePage**](DefaultHomePage.md)> |  | [optional]
+**dynamic_secret_max_ttl** | Option<[**models::DynamicSecretMaxTtl**](DynamicSecretMaxTtl.md)> |  | [optional]
+**enable_request_for_access** | Option<**bool**> |  | [optional]
+**hide_personal_folder** | Option<**bool**> |  | [optional]
+**hide_static_password** | Option<**bool**> |  | [optional]
+**invalid_characters** | Option<**String**> | InvalidCharacters is the invalid characters for items/targets/roles/auths/notifier_forwarder naming convention | [optional]
+**item_usage_event** | Option<[**models::UsageEventSetting**](UsageEventSetting.md)> |  | [optional]
+**lock_default_key** | Option<**bool**> | LockDefaultKey determines whether the configured default key can be updated by end-users on a per-request basis true - all requests use the configured default key false - every request can determine its protection key (default) nil - change nothing (every request can determine its protection key (default)) This parameter is only relevant if AccountDefaultKeyItemID is not empty | [optional]
+**password_expiration_info** | Option<[**models::PasswordExpirationInfo**](PasswordExpirationInfo.md)> |  | [optional]
+**password_policy** | Option<[**models::PasswordPolicyInfo**](PasswordPolicyInfo.md)> |  | [optional]
+**password_score** | Option<[**models::PasswordScoreSetting**](PasswordScoreSetting.md)> |  | [optional]
+**protect_items_by_default** | Option<**bool**> |  | [optional]
+**rotation_secret_max_interval** | Option<[**models::RotationSecretMaxInterval**](RotationSecretMaxInterval.md)> |  | [optional]
+**sharing_policy** | Option<[**models::SharingPolicyInfo**](SharingPolicyInfo.md)> |  | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

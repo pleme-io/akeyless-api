@@ -1,0 +1,16 @@
+# KmipServerSetup
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**certificate_ttl** | Option<**i64**> | Server certificate TTL in days | [optional][default to 90]
+**hostname** | **String** | Hostname | 
+**json** | Option<**bool**> | Set output format to JSON | [optional][default to false]
+**root** | **String** | Root path of KMIP Resources | 
+**token** | Option<**String**> | Authentication token (see `/auth` and `/configure`) | [optional]
+**uid_token** | Option<**String**> | The universal identity token, Required only for universal_identity authentication | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

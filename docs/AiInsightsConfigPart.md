@@ -1,0 +1,14 @@
+# AiInsightsConfigPart
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**enable** | Option<**bool**> |  | [optional]
+**model** | Option<**String**> |  | [optional]
+**target_id** | Option<**i64**> |  | [optional]
+**target_name** | Option<**String**> |  | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
