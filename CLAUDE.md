@@ -1,5 +1,8 @@
 # akeyless-api
 
+> **★★★ CSE / Knowable Construction.** This repo operates under **Constructive Substrate Engineering** — canonical specification at [`pleme-io/theory/CONSTRUCTIVE-SUBSTRATE-ENGINEERING.md`](https://github.com/pleme-io/theory/blob/main/CONSTRUCTIVE-SUBSTRATE-ENGINEERING.md). The Compounding Directive (operational rules: solve once, load-bearing fixes only, idiom-first, models stay current, direction beats velocity) is in the org-level pleme-io/CLAUDE.md ★★★ section. Read both before non-trivial changes.
+
+
 Auto-generated Rust SDK for the Akeyless API. 604 endpoints, 1334 types,
 fully typed with serde. Generated from the official OpenAPI 3.0 spec using
 `openapi-generator-cli`.
