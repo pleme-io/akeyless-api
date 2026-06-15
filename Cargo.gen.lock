@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "9873dcd5587ad7d4d99130b5bb3af844c23ce3c379492c40c0e417970541eb81",
+  "cargo_lock_sha256": "2bd51517b46eb04fa13fba13f8de7abeeabb7a044edf46497e1fcfbcf8e171be",
   "target_resolves": {
     "base": {
-      "akeyless-api-0.1.0": {
+      "akeyless-api-0.1.1": {
         "runtime_dependencies": [
           {
             "name": "reqwest",
@@ -52,7 +52,7 @@
           },
           {
             "name": "serde_with",
-            "package_key": "serde_with-3.20.0",
+            "package_key": "serde_with-3.21.0",
             "kind": "normal",
             "features": [
               "base64",
@@ -100,7 +100,7 @@
           "std"
         ]
       },
-      "bitflags-2.11.1": {
+      "bitflags-2.13.0": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
@@ -134,7 +134,7 @@
           "std"
         ]
       },
-      "cc-1.2.62": {
+      "cc-1.2.64": {
         "runtime_dependencies": [
           {
             "name": "find_msvc_tools",
@@ -148,7 +148,7 @@
           },
           {
             "name": "shlex",
-            "package_key": "shlex-1.3.0",
+            "package_key": "shlex-2.0.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -170,7 +170,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "chrono-0.4.44": {
+      "chrono-0.4.45": {
         "runtime_dependencies": [
           {
             "name": "iana_time_zone",
@@ -345,16 +345,6 @@
       "deranged-0.5.8": {
         "runtime_dependencies": [
           {
-            "name": "powerfmt",
-            "package_key": "powerfmt-0.2.0",
-            "kind": "normal",
-            "features": [],
-            "uses_default_features": false,
-            "optional": true,
-            "target": null,
-            "tree": "target"
-          },
-          {
             "name": "serde_core",
             "package_key": "serde_core-1.0.228",
             "kind": "normal",
@@ -368,11 +358,10 @@
         "build_dependencies": [],
         "features": [
           "default",
-          "powerfmt",
           "serde"
         ]
       },
-      "displaydoc-0.2.5": {
+      "displaydoc-0.2.6": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
@@ -678,7 +667,7 @@
           "alloc"
         ]
       },
-      "http-1.4.1": {
+      "http-1.4.2": {
         "runtime_dependencies": [
           {
             "name": "bytes",
@@ -721,7 +710,7 @@
           },
           {
             "name": "http",
-            "package_key": "http-1.4.1",
+            "package_key": "http-1.4.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -757,7 +746,7 @@
           },
           {
             "name": "http",
-            "package_key": "http-1.4.1",
+            "package_key": "http-1.4.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -799,7 +788,7 @@
           "std"
         ]
       },
-      "hyper-1.9.0": {
+      "hyper-1.10.1": {
         "runtime_dependencies": [
           {
             "name": "atomic_waker",
@@ -843,7 +832,7 @@
           },
           {
             "name": "http",
-            "package_key": "http-1.4.1",
+            "package_key": "http-1.4.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -893,7 +882,7 @@
           },
           {
             "name": "smallvec",
-            "package_key": "smallvec-1.15.1",
+            "package_key": "smallvec-1.15.2",
             "kind": "normal",
             "features": [
               "const_generics",
@@ -938,7 +927,7 @@
         "runtime_dependencies": [
           {
             "name": "http",
-            "package_key": "http-1.4.1",
+            "package_key": "http-1.4.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -948,7 +937,7 @@
           },
           {
             "name": "hyper",
-            "package_key": "hyper-1.9.0",
+            "package_key": "hyper-1.10.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -1070,7 +1059,7 @@
           },
           {
             "name": "http",
-            "package_key": "http-1.4.1",
+            "package_key": "http-1.4.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1090,7 +1079,7 @@
           },
           {
             "name": "hyper",
-            "package_key": "hyper-1.9.0",
+            "package_key": "hyper-1.10.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1140,7 +1129,7 @@
           },
           {
             "name": "socket2",
-            "package_key": "socket2-0.6.3",
+            "package_key": "socket2-0.6.4",
             "kind": "normal",
             "features": [
               "all"
@@ -1197,7 +1186,7 @@
         "runtime_dependencies": [
           {
             "name": "displaydoc",
-            "package_key": "displaydoc-0.2.5",
+            "package_key": "displaydoc-0.2.6",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -1229,7 +1218,7 @@
           },
           {
             "name": "yoke",
-            "package_key": "yoke-0.8.2",
+            "package_key": "yoke-0.8.3",
             "kind": "normal",
             "features": [
               "derive"
@@ -1272,7 +1261,7 @@
         "runtime_dependencies": [
           {
             "name": "displaydoc",
-            "package_key": "displaydoc-0.2.5",
+            "package_key": "displaydoc-0.2.6",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -1370,7 +1359,7 @@
           },
           {
             "name": "smallvec",
-            "package_key": "smallvec-1.15.1",
+            "package_key": "smallvec-1.15.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -1484,7 +1473,7 @@
         "runtime_dependencies": [
           {
             "name": "displaydoc",
-            "package_key": "displaydoc-0.2.5",
+            "package_key": "displaydoc-0.2.6",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -1514,7 +1503,7 @@
           },
           {
             "name": "yoke",
-            "package_key": "yoke-0.8.2",
+            "package_key": "yoke-0.8.3",
             "kind": "normal",
             "features": [
               "derive"
@@ -1583,7 +1572,7 @@
           },
           {
             "name": "smallvec",
-            "package_key": "smallvec-1.15.1",
+            "package_key": "smallvec-1.15.2",
             "kind": "normal",
             "features": [
               "const_generics"
@@ -1747,7 +1736,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "log-0.4.30": {
+      "log-0.4.32": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
@@ -1757,7 +1746,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "memchr-2.8.0": {
+      "memchr-2.8.2": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -1807,7 +1796,7 @@
         ],
         "features": []
       },
-      "mio-1.2.0": {
+      "mio-1.2.1": {
         "runtime_dependencies": [
           {
             "name": "libc",
@@ -1899,7 +1888,7 @@
         "runtime_dependencies": [
           {
             "name": "zerocopy",
-            "package_key": "zerocopy-0.8.48",
+            "package_key": "zerocopy-0.8.52",
             "kind": "normal",
             "features": [
               "simd"
@@ -2003,7 +1992,7 @@
           },
           {
             "name": "socket2",
-            "package_key": "socket2-0.6.3",
+            "package_key": "socket2-0.6.4",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2205,7 +2194,7 @@
           },
           {
             "name": "socket2",
-            "package_key": "socket2-0.6.3",
+            "package_key": "socket2-0.6.4",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2438,7 +2427,7 @@
           },
           {
             "name": "http",
-            "package_key": "http-1.4.1",
+            "package_key": "http-1.4.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2468,7 +2457,7 @@
           },
           {
             "name": "hyper",
-            "package_key": "hyper-1.9.0",
+            "package_key": "hyper-1.10.1",
             "kind": "normal",
             "features": [
               "http1",
@@ -2501,7 +2490,7 @@
           },
           {
             "name": "log",
-            "package_key": "log-0.4.30",
+            "package_key": "log-0.4.32",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2784,7 +2773,7 @@
           },
           {
             "name": "zeroize",
-            "package_key": "zeroize-1.8.2",
+            "package_key": "zeroize-1.9.0",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2804,7 +2793,7 @@
         "runtime_dependencies": [
           {
             "name": "zeroize",
-            "package_key": "zeroize-1.8.2",
+            "package_key": "zeroize-1.9.0",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3074,7 +3063,7 @@
           },
           {
             "name": "memchr",
-            "package_key": "memchr-2.8.0",
+            "package_key": "memchr-2.8.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -3192,7 +3181,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "serde_with-3.20.0": {
+      "serde_with-3.21.0": {
         "runtime_dependencies": [
           {
             "name": "base64",
@@ -3216,7 +3205,7 @@
           },
           {
             "name": "chrono_0_4",
-            "package_key": "chrono-0.4.44",
+            "package_key": "chrono-0.4.45",
             "kind": "normal",
             "features": [
               "serde"
@@ -3304,7 +3293,7 @@
           },
           {
             "name": "serde_with_macros",
-            "package_key": "serde_with_macros-3.20.0",
+            "package_key": "serde_with_macros-3.21.0",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3314,7 +3303,7 @@
           },
           {
             "name": "time_0_3",
-            "package_key": "time-0.3.47",
+            "package_key": "time-0.3.49",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -3331,7 +3320,7 @@
           "std"
         ]
       },
-      "serde_with_macros-3.20.0": {
+      "serde_with_macros-3.21.0": {
         "runtime_dependencies": [
           {
             "name": "darling",
@@ -3381,7 +3370,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shlex-1.3.0": {
+      "shlex-2.0.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -3397,7 +3386,7 @@
           "std"
         ]
       },
-      "smallvec-1.15.1": {
+      "smallvec-1.15.2": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -3405,7 +3394,7 @@
           "const_new"
         ]
       },
-      "socket2-0.6.3": {
+      "socket2-0.6.4": {
         "runtime_dependencies": [
           {
             "name": "libc",
@@ -3606,27 +3595,15 @@
         "build_dependencies": [],
         "features": []
       },
-      "time-0.3.47": {
+      "time-0.3.49": {
         "runtime_dependencies": [
           {
             "name": "deranged",
             "package_key": "deranged-0.5.8",
             "kind": "normal",
-            "features": [
-              "powerfmt"
-            ],
-            "uses_default_features": true,
-            "optional": false,
-            "target": null,
-            "tree": "target"
-          },
-          {
-            "name": "itoa",
-            "package_key": "itoa-1.0.18",
-            "kind": "normal",
             "features": [],
             "uses_default_features": true,
-            "optional": true,
+            "optional": false,
             "target": null,
             "tree": "target"
           },
@@ -3662,7 +3639,7 @@
           },
           {
             "name": "time_core",
-            "package_key": "time-core-0.1.8",
+            "package_key": "time-core-0.1.9",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3672,7 +3649,7 @@
           },
           {
             "name": "time_macros",
-            "package_key": "time-macros-0.2.27",
+            "package_key": "time-macros-0.2.29",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3691,12 +3668,12 @@
           "std"
         ]
       },
-      "time-core-0.1.8": {
+      "time-core-0.1.9": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
       },
-      "time-macros-0.2.27": {
+      "time-macros-0.2.29": {
         "runtime_dependencies": [
           {
             "name": "num_conv",
@@ -3710,7 +3687,7 @@
           },
           {
             "name": "time_core",
-            "package_key": "time-core-0.1.8",
+            "package_key": "time-core-0.1.9",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -3730,7 +3707,7 @@
         "runtime_dependencies": [
           {
             "name": "displaydoc",
-            "package_key": "displaydoc-0.2.5",
+            "package_key": "displaydoc-0.2.6",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -3825,7 +3802,7 @@
           },
           {
             "name": "mio",
-            "package_key": "mio-1.2.0",
+            "package_key": "mio-1.2.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -3835,7 +3812,7 @@
           },
           {
             "name": "mio",
-            "package_key": "mio-1.2.0",
+            "package_key": "mio-1.2.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -3855,7 +3832,7 @@
           },
           {
             "name": "socket2",
-            "package_key": "socket2-0.6.3",
+            "package_key": "socket2-0.6.4",
             "kind": "normal",
             "features": [
               "all"
@@ -4001,7 +3978,7 @@
         "runtime_dependencies": [
           {
             "name": "bitflags",
-            "package_key": "bitflags-2.11.1",
+            "package_key": "bitflags-2.13.0",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -4031,7 +4008,7 @@
           },
           {
             "name": "http",
-            "package_key": "http-1.4.1",
+            "package_key": "http-1.4.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -4280,7 +4257,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "yoke-0.8.2": {
+      "yoke-0.8.3": {
         "runtime_dependencies": [
           {
             "name": "stable_deref_trait",
@@ -4367,7 +4344,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "zerocopy-0.8.48": {
+      "zerocopy-0.8.52": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -4440,7 +4417,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "zeroize-1.8.2": {
+      "zeroize-1.9.0": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -4452,7 +4429,7 @@
         "runtime_dependencies": [
           {
             "name": "displaydoc",
-            "package_key": "displaydoc-0.2.5",
+            "package_key": "displaydoc-0.2.6",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -4462,7 +4439,7 @@
           },
           {
             "name": "yoke",
-            "package_key": "yoke-0.8.2",
+            "package_key": "yoke-0.8.3",
             "kind": "normal",
             "features": [
               "derive"
@@ -4493,7 +4470,7 @@
         "runtime_dependencies": [
           {
             "name": "yoke",
-            "package_key": "yoke-0.8.2",
+            "package_key": "yoke-0.8.3",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -4657,7 +4634,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.2.62",
+                "package_key": "cc-1.2.64",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": false,
@@ -4739,7 +4716,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.2.62",
+                "package_key": "cc-1.2.64",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": false,
@@ -4802,7 +4779,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.2.62",
+                "package_key": "cc-1.2.64",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": false,
@@ -4865,7 +4842,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.2.62",
+                "package_key": "cc-1.2.64",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": false,
@@ -4948,7 +4925,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.2.62",
+                "package_key": "cc-1.2.64",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": false,
@@ -5031,7 +5008,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.2.62",
+                "package_key": "cc-1.2.64",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": false,
@@ -5052,7 +5029,7 @@
     }
   },
   "per_crate": {
-    "akeyless-api-0.1.0": {
+    "akeyless-api-0.1.1": {
       "edition": "2021",
       "lib_target": {
         "name": "akeyless_api",
@@ -5068,7 +5045,7 @@
     "base64-0.22.1": {
       "edition": "2018"
     },
-    "bitflags-2.11.1": {
+    "bitflags-2.13.0": {
       "edition": "2021"
     },
     "bs58-0.5.1": {
@@ -5077,7 +5054,7 @@
     "bytes-1.11.1": {
       "edition": "2021"
     },
-    "cc-1.2.62": {
+    "cc-1.2.64": {
       "edition": "2018"
     },
     "cfg-if-1.0.4": {
@@ -5086,11 +5063,8 @@
     "cfg_aliases-0.2.1": {
       "edition": "2018"
     },
-    "chrono-0.4.44": {
+    "chrono-0.4.45": {
       "edition": "2021"
-    },
-    "core-foundation-sys-0.8.7": {
-      "edition": "2018"
     },
     "darling-0.23.0": {
       "edition": "2021"
@@ -5105,7 +5079,7 @@
     "deranged-0.5.8": {
       "edition": "2021"
     },
-    "displaydoc-0.2.5": {
+    "displaydoc-0.2.6": {
       "edition": "2021",
       "proc_macro": true
     },
@@ -5149,7 +5123,7 @@
     "hex-0.4.3": {
       "edition": "2018"
     },
-    "http-1.4.1": {
+    "http-1.4.2": {
       "edition": "2021"
     },
     "http-body-1.0.1": {
@@ -5162,7 +5136,7 @@
       "edition": "2018",
       "build_script": "build.rs"
     },
-    "hyper-1.9.0": {
+    "hyper-1.10.1": {
       "edition": "2021"
     },
     "hyper-rustls-0.27.9": {
@@ -5226,13 +5200,13 @@
     "litemap-0.8.2": {
       "edition": "2021"
     },
-    "log-0.4.30": {
+    "log-0.4.32": {
       "edition": "2021"
     },
     "lru-slab-0.1.2": {
       "edition": "2021"
     },
-    "memchr-2.8.0": {
+    "memchr-2.8.2": {
       "edition": "2021"
     },
     "mime-0.3.17": {
@@ -5248,7 +5222,7 @@
         }
       ]
     },
-    "mio-1.2.0": {
+    "mio-1.2.1": {
       "edition": "2021"
     },
     "num-conv-0.2.2": {
@@ -5369,23 +5343,23 @@
     "serde_urlencoded-0.7.1": {
       "edition": "2018"
     },
-    "serde_with-3.20.0": {
+    "serde_with-3.21.0": {
       "edition": "2021"
     },
-    "serde_with_macros-3.20.0": {
+    "serde_with_macros-3.21.0": {
       "edition": "2021",
       "proc_macro": true
     },
-    "shlex-1.3.0": {
-      "edition": "2015"
+    "shlex-2.0.1": {
+      "edition": "2018"
     },
     "slab-0.4.12": {
       "edition": "2018"
     },
-    "smallvec-1.15.1": {
+    "smallvec-1.15.2": {
       "edition": "2018"
     },
-    "socket2-0.6.3": {
+    "socket2-0.6.4": {
       "edition": "2021"
     },
     "stable_deref_trait-1.2.1": {
@@ -5414,13 +5388,13 @@
       "edition": "2021",
       "proc_macro": true
     },
-    "time-0.3.47": {
+    "time-0.3.49": {
       "edition": "2024"
     },
-    "time-core-0.1.8": {
+    "time-core-0.1.9": {
       "edition": "2024"
     },
-    "time-macros-0.2.27": {
+    "time-macros-0.2.29": {
       "edition": "2024",
       "proc_macro": true
     },
@@ -5484,14 +5458,14 @@
     "writeable-0.6.3": {
       "edition": "2021"
     },
-    "yoke-0.8.2": {
+    "yoke-0.8.3": {
       "edition": "2021"
     },
     "yoke-derive-0.8.2": {
       "edition": "2021",
       "proc_macro": true
     },
-    "zerocopy-0.8.48": {
+    "zerocopy-0.8.52": {
       "edition": "2021",
       "build_script": "build.rs"
     },
@@ -5502,8 +5476,8 @@
       "edition": "2021",
       "proc_macro": true
     },
-    "zeroize-1.8.2": {
-      "edition": "2021"
+    "zeroize-1.9.0": {
+      "edition": "2024"
     },
     "zerotrie-0.2.4": {
       "edition": "2021"
@@ -5518,6 +5492,9 @@
     "zmij-1.0.21": {
       "edition": "2021",
       "build_script": "build.rs"
+    },
+    "core-foundation-sys-0.8.7": {
+      "edition": "2018"
     }
   },
   "git_nar_sha256": {},

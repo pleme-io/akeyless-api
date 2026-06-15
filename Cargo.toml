@@ -1,6 +1,6 @@
 [package]
 name = "akeyless-api"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Auto-generated Rust SDK for the Akeyless API (604 endpoints, 1334 types)"
 license = "MIT"
